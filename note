@@ -1,0 +1,3 @@
+brew install ripgrep
+brew install fzf
+npm install tree-sitter-cli
