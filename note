@@ -1,5 +1,6 @@
 brew install ripgrep
 brew install fzf
+sudo apt install fd-find
 
 # Install tree-sitter
 npm install tree-sitter-cli
