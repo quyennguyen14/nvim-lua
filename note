@@ -9,6 +9,9 @@ sudo apt install fd-find
 # Install tree-sitter
 npm install tree-sitter-cli
 
+# Install C compiler
+sudo apt-get install build-essential
+
 curl -OL https://github.com/tree-sitter/tree-sitter/releases/download/v0.19.5/tree-sitter-linux-x64.gz
 cd $HOME/bin
 mkdir -p $HOME/bin
