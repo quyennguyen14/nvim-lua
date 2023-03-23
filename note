@@ -12,6 +12,9 @@ npm install tree-sitter-cli
 # Install C compiler
 sudo apt-get install build-essential
 
+# install python venv
+apt install python3.10-venv
+
 curl -OL https://github.com/tree-sitter/tree-sitter/releases/download/v0.19.5/tree-sitter-linux-x64.gz
 cd $HOME/bin
 mkdir -p $HOME/bin
