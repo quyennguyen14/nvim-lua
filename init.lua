@@ -15,5 +15,29 @@ require("josean.plugins.autopairs")
 require("josean.plugins.treesitter")
 require("josean.plugins.gitsigns")
 require("josean.plugins.toggleterm")
-require("josean.plugins.bufferline").setup({})
+-- require("josean.plugins.bufferline").setup({})
 require("josean.plugins.fine-line")
+
+require("josean.plugins.bufferline").setup({
+	options = {
+		hover = {
+			enabled = true,
+			delay = 200,
+			reveal = { "close" },
+		},
+		indicator = {
+			style = "icon",
+		},
+		buffer_close_icon = "",
+		modified_icon = "●",
+		close_icon = "",
+		left_trunc_marker = "",
+		right_trunc_marker = "",
+		diagnostics = "nvim_lsp",
+		color_icons = true,
+		show_buffer_icons = true,
+		show_tab_indicators = true,
+		sort_by = "insert_at_end",
+		numbers = "ordinal",
+	},
+})
