@@ -60,3 +60,11 @@ keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if ne
 
 -- toggleTerminal
 keymap.set("n", "<leader>tt", ":ToggleTerm<CR>")
+
+-- fine-cmdline.nvim
+keymap.set("n", ":", "<cmd>FineCmdline<CR>", { noremap = true })
+
+-- bufferLine.nvim
+keymap.set("n", "gB", "<cmd>BufferLinePick<CR>", { noremap = true })
+keymap.set("n", "gw", "<cmd>BufferLinePickClose<CR>", { noremap = true })
+
