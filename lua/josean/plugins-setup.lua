@@ -110,6 +110,17 @@ return packer.startup(function(use)
 	-- toggerterm
 	use("akinsho/toggleterm.nvim") -- terminal in nvim
 
+	-- bufferLine -- Show buffer as tab
+	use({ "akinsho/bufferline.nvim", tag = "*", requires = "nvim-tree/nvim-web-devicons" })
+
+	-- fine-cmdline -- Show command line togger
+	use({
+		"VonHeikemen/fine-cmdline.nvim",
+		requires = {
+			{ "MunifTanjim/nui.nvim" },
+		},
+	})
+		
 	if packer_bootstrap then
 		require("packer").sync()
 	end
