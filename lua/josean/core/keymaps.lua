@@ -65,6 +65,21 @@ keymap.set("n", "<leader>tt", ":ToggleTerm<CR>")
 -- keymap.set("n", ":", "<cmd>FineCmdline<CR>", { noremap = true })
 
 -- bufferLine.nvim
--- keymap.set("n", "gB", "<cmd>BufferLinePick<CR>", { noremap = true })
--- keymap.set("n", "gw", "<cmd>BufferLinePickClose<CR>", { noremap = true })
+-- keymap.set("n", "gB", "<cmd>BufferLinePick<CR>", { noremap = true }) -- pick a buffer
+-- keymap.set("n", "gW", "<cmd>BufferLinePickClose<CR>", { noremap = true }) -- close a buffer
+-- keymap.set("n", "gA", "<cmd>BufferLineCloseOthers<CR>", { noremap = true }) -- close all but this
+-- keymap.set("n", "<leader>1", "<cmd>BufferLineGoToBuffer 1<CR>") -- goto buffer 1
+-- keymap.set("n", "<leader>2", "<cmd>BufferLineGoToBuffer 2<CR>") -- goto buffer 2
+-- keymap.set("n", "<leader>3", "<cmd>BufferLineGoToBuffer 3<CR>") -- goto buffer 3
+-- keymap.set("n", "<leader>4", "<cmd>BufferLineGoToBuffer 4<CR>") -- goto buffer 4
+-- keymap.set("n", "<leader>5", "<cmd>BufferLineGoToBuffer 5<CR>") -- goto buffer 5
+-- keymap.set("n", "<leader>6", "<cmd>BufferLineGoToBuffer 6<CR>") -- goto buffer 6
+-- keymap.set("n", "<leader>7", "<cmd>BufferLineGoToBuffer 7<CR>") -- goto buffer 7
+-- keymap.set("n", "<leader>8", "<cmd>BufferLineGoToBuffer 8<CR>") -- goto buffer 8
+-- keymap.set("n", "<leader>9", "<cmd>BufferLineGoToBuffer 9<CR>") -- goto buffer 9
+-- keymap.set("n", "<leader>$", "<cmd>BufferLineGoToBuffer -1<CR>") -- goto last buffer
+-- keymap.set("n", "[b", "<cmd>BufferLineMovePrev<CR>") -- goto previous buffer
+-- keymap.set("n", "]b", "<cmd>BufferLineMoveNext<CR>") -- goto next buffer
+
+
 
